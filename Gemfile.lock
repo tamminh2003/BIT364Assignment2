@@ -1,0 +1,93 @@
+GIT
+  remote: https://github.com/tamminh2003/puredocx.git
+  revision: 65db7a123e312fc344c7521c606cb0949d8d6012
+  specs:
+    puredocx (0.1.1)
+      fastimage
+      rubyzip (~> 2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    Ascii85 (1.1.0)
+    afm (0.2.2)
+    cowsay (0.3.0)
+    docx (0.6.2)
+      nokogiri (~> 1.10, >= 1.10.4)
+      rubyzip (~> 2.0)
+    docxgen (0.2.0)
+      docx (~> 0.5)
+    fastimage (2.2.5)
+    ffi (1.15.4-x64-mingw32)
+    ffi-win32-extensions (1.0.4)
+      ffi
+    figlet (1.1.0)
+    file-find (0.5.0)
+      sys-admin (~> 1.7)
+    hashery (2.1.2)
+    nokogiri (1.12.4-x64-mingw32)
+      racc (~> 1.4)
+    pastel (0.8.0)
+      tty-color (~> 0.5)
+    pdf-reader (2.5.0)
+      Ascii85 (~> 1.0)
+      afm (~> 0.2.1)
+      hashery (~> 2.0)
+      ruby-rc4
+      ttfunk
+    racc (1.5.2)
+    ruby-rc4 (0.1.5)
+    rubyzip (2.3.2)
+    search_in_file (1.0.1)
+    strings (0.2.1)
+      strings-ansi (~> 0.2)
+      unicode-display_width (>= 1.5, < 3.0)
+      unicode_utils (~> 1.4)
+    strings-ansi (0.2.0)
+    sys-admin (1.8.0-universal-mingw32)
+      ffi (~> 1.1)
+      win32-security (~> 0.5)
+    ttfunk (1.7.0)
+    tty-box (0.7.0)
+      pastel (~> 0.8)
+      strings (~> 0.2.0)
+      tty-cursor (~> 0.7)
+    tty-color (0.6.0)
+    tty-cursor (0.7.1)
+    tty-prompt (0.23.1)
+      pastel (~> 0.8)
+      tty-reader (~> 0.8)
+    tty-reader (0.9.0)
+      tty-cursor (~> 0.7)
+      tty-screen (~> 0.8)
+      wisper (~> 2.0)
+    tty-screen (0.8.1)
+    tty-table (0.12.0)
+      pastel (~> 0.8)
+      strings (~> 0.2.0)
+      tty-screen (~> 0.8)
+    unicode-display_width (2.1.0)
+    unicode_utils (1.4.0)
+    win32-security (0.5.0)
+      ffi
+      ffi-win32-extensions
+    wisper (2.0.1)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  cowsay
+  docx (~> 0.6.2)
+  docxgen
+  figlet (~> 1.1)
+  file-find (~> 0.5.0)
+  pdf-reader (~> 2.5)
+  puredocx!
+  search_in_file (~> 1.0)
+  tty-box (~> 0.7.0)
+  tty-prompt (~> 0.23.1)
+  tty-table (~> 0.12.0)
+
+BUNDLED WITH
+   2.2.27
