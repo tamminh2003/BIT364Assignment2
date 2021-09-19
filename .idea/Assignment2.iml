@@ -9,42 +9,647 @@
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/cache" />
     </content>
     <orderEntry type="jdk" jdkName="ruby-3.0.2-p107 (2)" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="Ascii85 (v1.1.0, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="afm (v0.2.2, ruby-3.0.2-p107 (2)) [gem]" level="application" />
+    <orderEntry type="module-library">
+      <library name="Ascii85 (vbundled(1.1.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/Ascii85-1.1.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/Ascii85-1.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/Ascii85-1.1.0/spec" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/Ascii85-1.1.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/Ascii85-1.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/Ascii85-1.1.0/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/Ascii85-1.1.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/Ascii85-1.1.0/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="afm (vbundled(0.2.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/afm-0.2.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/afm-0.2.2/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/afm-0.2.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/afm-0.2.2/test" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/afm-0.2.2/test" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="cowsay (vbundled(0.3.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/cowsay-0.3.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/cowsay-0.3.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/cowsay-0.3.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/cowsay-0.3.0/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/cowsay-0.3.0/bin" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="docx (vbundled(0.6.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/docx-0.6.2/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/docx-0.6.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fastimage (vbundled(2.2.5)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/fastimage-2.2.5/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/fastimage-2.2.5/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ffi (vbundled(1.15.4)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/ffi-1.15.4-x64-mingw32/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/ffi-1.15.4-x64-mingw32/rakelib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/ffi-1.15.4-x64-mingw32/samples" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/ffi-1.15.4-x64-mingw32/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/ffi-1.15.4-x64-mingw32/rakelib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/ffi-1.15.4-x64-mingw32/samples" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/ffi-1.15.4-x64-mingw32/rakelib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/ffi-1.15.4-x64-mingw32/samples" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ffi-win32-extensions (vbundled(1.0.4)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/ffi-win32-extensions-1.0.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/ffi-win32-extensions-1.0.4/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/ffi-win32-extensions-1.0.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/ffi-win32-extensions-1.0.4/test" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/ffi-win32-extensions-1.0.4/test" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="figlet (vbundled(1.1.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/figlet-1.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/figlet-1.1.0/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/figlet-1.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/figlet-1.1.0/test" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/figlet-1.1.0/test" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="file-find (vbundled(0.5.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/file-find-0.5.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/file-find-0.5.0/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/file-find-0.5.0/certs" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/file-find-0.5.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/file-find-0.5.0/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/file-find-0.5.0/certs" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/file-find-0.5.0/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/file-find-0.5.0/certs" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hashery (vbundled(2.1.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/hashery-2.1.2/alt" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/hashery-2.1.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/hashery-2.1.2/demo" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/hashery-2.1.2/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/hashery-2.1.2/alt" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/hashery-2.1.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/hashery-2.1.2/demo" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/hashery-2.1.2/test" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/hashery-2.1.2/alt" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/hashery-2.1.2/demo" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/hashery-2.1.2/test" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="nokogiri (vbundled(1.12.4)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.4-x64-mingw32/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.4-x64-mingw32/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.4-x64-mingw32/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.4-x64-mingw32/gumbo-parser" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.4-x64-mingw32/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.4-x64-mingw32/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.4-x64-mingw32/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.4-x64-mingw32/gumbo-parser" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.4-x64-mingw32/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.4-x64-mingw32/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.12.4-x64-mingw32/gumbo-parser" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pastel (vbundled(0.8.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/pastel-0.8.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/pastel-0.8.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pdf-reader (vbundled(2.5.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/pdf-reader-2.5.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/pdf-reader-2.5.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/pdf-reader-2.5.0/examples" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/pdf-reader-2.5.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/pdf-reader-2.5.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/pdf-reader-2.5.0/examples" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/pdf-reader-2.5.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/pdf-reader-2.5.0/examples" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="puredocx (vbundled(0.1.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/puredocx-65db7a123e31/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/puredocx-65db7a123e31/.git" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/puredocx-65db7a123e31/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/puredocx-65db7a123e31/examples" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/puredocx-65db7a123e31/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/puredocx-65db7a123e31/.git" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/puredocx-65db7a123e31/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/puredocx-65db7a123e31/examples" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/puredocx-65db7a123e31/.git" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/puredocx-65db7a123e31/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/puredocx-65db7a123e31/examples" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="racc (vbundled(1.5.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/web" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/rdoc" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/sample" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/web" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/rdoc" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/sample" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/web" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/rdoc" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/sample" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ruby-rc4 (vbundled(0.1.5)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/ruby-rc4-0.1.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/ruby-rc4-0.1.5/spec" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/ruby-rc4-0.1.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/ruby-rc4-0.1.5/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/ruby-rc4-0.1.5/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rubyzip (vbundled(2.3.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubyzip-2.3.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubyzip-2.3.2/samples" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubyzip-2.3.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubyzip-2.3.2/samples" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubyzip-2.3.2/samples" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="search_in_file (vbundled(1.0.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/search_in_file-1.0.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/search_in_file-1.0.1/spec" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/search_in_file-1.0.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/search_in_file-1.0.1/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/search_in_file-1.0.1/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="strings (vbundled(0.2.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/strings-0.2.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/strings-0.2.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="strings-ansi (vbundled(0.2.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/strings-ansi-0.2.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/strings-ansi-0.2.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/strings-ansi-0.2.0/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/strings-ansi-0.2.0/tasks" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/strings-ansi-0.2.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/strings-ansi-0.2.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/strings-ansi-0.2.0/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/strings-ansi-0.2.0/tasks" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/strings-ansi-0.2.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/strings-ansi-0.2.0/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/strings-ansi-0.2.0/tasks" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sys-admin (vbundled(1.8.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sys-admin-1.8.0-universal-mingw32/doc" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sys-admin-1.8.0-universal-mingw32/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sys-admin-1.8.0-universal-mingw32/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sys-admin-1.8.0-universal-mingw32/certs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sys-admin-1.8.0-universal-mingw32/examples" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sys-admin-1.8.0-universal-mingw32/doc" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sys-admin-1.8.0-universal-mingw32/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sys-admin-1.8.0-universal-mingw32/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sys-admin-1.8.0-universal-mingw32/certs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sys-admin-1.8.0-universal-mingw32/examples" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sys-admin-1.8.0-universal-mingw32/doc" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sys-admin-1.8.0-universal-mingw32/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sys-admin-1.8.0-universal-mingw32/certs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sys-admin-1.8.0-universal-mingw32/examples" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ttfunk (vbundled(1.7.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/ttfunk-1.7.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/ttfunk-1.7.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tty-box (vbundled(0.7.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/tty-box-0.7.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/tty-box-0.7.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tty-color (vbundled(0.6.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/tty-color-0.6.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/tty-color-0.6.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tty-cursor (vbundled(0.7.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/tty-cursor-0.7.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/tty-cursor-0.7.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tty-prompt (vbundled(0.23.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/tty-prompt-0.23.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/tty-prompt-0.23.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tty-reader (vbundled(0.9.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/tty-reader-0.9.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/tty-reader-0.9.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tty-screen (vbundled(0.8.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/tty-screen-0.8.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/tty-screen-0.8.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tty-table (vbundled(0.12.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/tty-table-0.12.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/tty-table-0.12.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="unicode-display_width (vbundled(2.1.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/unicode-display_width-2.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/unicode-display_width-2.1.0/data" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/unicode-display_width-2.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/unicode-display_width-2.1.0/data" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/unicode-display_width-2.1.0/data" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="unicode_utils (vbundled(1.4.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/unicode_utils-1.4.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/unicode_utils-1.4.0/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/unicode_utils-1.4.0/cdata" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/unicode_utils-1.4.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/unicode_utils-1.4.0/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/unicode_utils-1.4.0/cdata" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/unicode_utils-1.4.0/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/unicode_utils-1.4.0/cdata" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="win32-security (vbundled(0.5.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/win32-security-0.5.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/win32-security-0.5.0/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/win32-security-0.5.0/certs" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/win32-security-0.5.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/win32-security-0.5.0/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/win32-security-0.5.0/certs" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/win32-security-0.5.0/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/win32-security-0.5.0/certs" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="wisper (vbundled(2.0.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/wisper-2.0.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/wisper-2.0.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/wisper-2.0.1/spec" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/wisper-2.0.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/wisper-2.0.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/wisper-2.0.1/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/wisper-2.0.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/wisper-2.0.1/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.2.27, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="cowsay (v0.3.0, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="docx (v0.6.2, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="docxgen (v0.2.0, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.15.4, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ffi-win32-extensions (v1.0.4, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="figlet (v1.1.0, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="file-find (v0.5.0, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="hashery (v2.1.2, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.12.4, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="pastel (v0.8.0, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="pdf-reader (v2.5.0, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="racc (v1.5.2, ruby-3.0.2-p107 (2)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rbs (v1.0.4, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ruby-rc4 (v0.1.5, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rubyzip (v2.3.2, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="search_in_file (v1.0.1, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="strings (v0.2.1, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="strings-ansi (v0.2.0, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sys-admin (v1.8.0, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ttfunk (v1.7.0, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tty-box (v0.7.0, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tty-color (v0.6.0, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tty-cursor (v0.7.1, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tty-prompt (v0.23.1, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tty-reader (v0.9.0, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tty-screen (v0.8.1, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tty-table (v0.12.0, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="unicode-display_width (v2.1.0, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="unicode_utils (v1.4.0, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="win32-security (v0.5.0, ruby-3.0.2-p107 (2)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="wisper (v2.0.1, ruby-3.0.2-p107 (2)) [gem]" level="application" />
   </component>
 </module>

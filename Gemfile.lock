@@ -15,8 +15,6 @@ GEM
     docx (0.6.2)
       nokogiri (~> 1.10, >= 1.10.4)
       rubyzip (~> 2.0)
-    docxgen (0.2.0)
-      docx (~> 0.5)
     fastimage (2.2.5)
     ffi (1.15.4-x64-mingw32)
     ffi-win32-extensions (1.0.4)
@@ -79,7 +77,6 @@ PLATFORMS
 DEPENDENCIES
   cowsay
   docx (~> 0.6.2)
-  docxgen
   figlet (~> 1.1)
   file-find (~> 0.5.0)
   pdf-reader (~> 2.5)
